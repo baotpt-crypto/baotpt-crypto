@@ -1,0 +1,54 @@
+name: Chess move
+
+on:
+  issues:
+    types: [opened]
+
+# Moves must be applied one at a time, in the order issues arrive
+concurrency:
+  group: chess
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  move:
+    if: startsWith(github.event.issue.title, 'chess|')
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - run: pip install chess==1.11.2
+
+      # Issue title/author are untrusted: pass them via env, never interpolate into the script
+      - id: play
+        run: python scripts/chess_move.py
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_AUTHOR: ${{ github.event.issue.user.login }}
+
+      - if: steps.play.outputs.status == 'ok'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md chess/state.json chess/board.svg
+          git commit -m "chess: move from issue #${ISSUE_NUMBER}"
+          git push
+        env:
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+
+      - if: always() && hashFiles('chess/reply.md') != ''
+        run: |
+          gh issue comment "$ISSUE_NUMBER" --body-file chess/reply.md
+          gh issue close "$ISSUE_NUMBER"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
