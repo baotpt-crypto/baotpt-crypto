@@ -1,4 +1,4 @@
-name: Generate Pac-Man contribution graph
+name: Generate arcade contribution graphs
 
 on:
   schedule:
@@ -20,7 +20,14 @@ jobs:
       - uses: abozanona/pacman-contribution-graph@v5.0.0
         with:
           github_user_name: ${{ github.repository_owner }}
-          games: 'pacman'
+          games: 'pacman,galaga,breakout'
+
+      - uses: Platane/snk@v3.5.0
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
 
       # IMPORTANT: this force-replaces the whole output branch with dist/
       - uses: crazy-max/ghaction-github-pages@v4
