@@ -69,6 +69,8 @@ const bao = {
 ### 📝 Recent activity
 
 <!--START_SECTION:activity-->
+1. 🔒 Closed issue [#3](https://github.com/baotpt-crypto/baotpt-crypto/issues/3) in [baotpt-crypto/baotpt-crypto](https://github.com/baotpt-crypto/baotpt-crypto)
+2. 💪 Opened PR [#2](https://github.com/baotpt-crypto/baotpt-crypto/pull/2) in [baotpt-crypto/baotpt-crypto](https://github.com/baotpt-crypto/baotpt-crypto)
 <!--END_SECTION:activity-->
 
 ### ♟️ Play chess with me
