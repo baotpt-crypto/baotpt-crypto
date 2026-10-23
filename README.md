@@ -1,10 +1,6 @@
 <picture><img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=180&section=header&text=Bao%20Trieu&fontSize=50&fontColor=ffffff&animation=fadeIn" width="100%" alt="Header" /></picture>
 
 <p align="center">
-  <picture><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=F75C7E&center=true&vCenter=true&width=600&lines=Backend+Engineer+%40+Piggi;Go+%E2%80%A2+GraphQL+%E2%80%A2+MySQL;Reverse+engineering+%26+automation;Clean+over+clever+%E2%9C%A8" alt="Typing SVG" /></picture>
-</p>
-
-<p align="center">
   <a href="https://github.com/piggivn"><img src="https://img.shields.io/badge/Backend_Engineer-@Piggi-ff69b4?style=for-the-badge&logo=github&logoColor=white" alt="Piggi" /></a>
   <picture><img src="https://komarev.com/ghpvc/?username=baotpt-crypto&label=Profile+views&color=blueviolet&style=for-the-badge" alt="Profile views" /></picture>
 </p>
@@ -22,29 +18,58 @@
 - 🌱 Currently learning: system design, performance profiling, advanced TypeScript
 - 💡 Motto: *Clean over clever · Explicit over implicit · Ship it, then refactor*
 
+### 🧑‍💻 My code style in a nutshell
+
+```ts
+const bao = {
+  philosophy: ['clean > clever', 'explicit > implicit', 'simple > complex', 'practical > perfect'],
+  style: { indent: 2, quotes: 'single', semicolons: true, trailingCommas: true, maxLineLength: 120 },
+  async: 'always await, never .then()',
+  controlFlow: 'early returns > nested ifs',
+  errors: 'log with context, re-throw, never swallow',
+  commits: ['feat:', 'fix:', 'refactor:', 'docs:', 'chore:'],
+  avoid: ['magic numbers', 'long parameter lists', 'over-engineering'],
+};
+```
+
 ### 🧰 Tech stack
 
 <p align="center">
   <picture><img src="https://skillicons.dev/icons?i=go,graphql,mysql,nestjs,ts,redis,rabbitmq,docker,kubernetes,gcp&perline=10" alt="Tech stack" /></picture>
 </p>
 
-<p align="center">
-  <picture><img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" /></picture>
-  <picture><img src="https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white" alt="GraphQL" /></picture>
-  <picture><img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS" /></picture>
-  <picture><img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" /></picture>
-  <picture><img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" /></picture>
-  <picture><img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white" alt="RabbitMQ" /></picture>
-  <picture><img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n" /></picture>
-  <picture><img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Google Cloud" /></picture>
-</p>
+### 💬 Ask me about
 
-### 📊 GitHub stats
+`Go concurrency` · `GraphQL schema design` · `MySQL query tuning` · `RabbitMQ consumers & workers` · `Reverse engineering mobile apps` · `n8n automation` · `Race conditions in payment flows`
 
+### 🎯 2026 roadmap
+
+- [ ] Handle race conditions in concurrent systems like a pro
+- [ ] Master advanced TypeScript patterns
+- [ ] Get fluent at performance profiling & optimization
+- [ ] Level up system design and API design
+- [ ] Push test coverage on the edge cases that actually bite
+
+<details>
+<summary><b>📊 GitHub stats</b></summary>
+<br />
 <p align="center">
   <picture><img height="165" src="https://github-readme-stats.vercel.app/api?username=baotpt-crypto&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="GitHub stats" /></picture>
   <picture><img height="165" src="https://streak-stats.demolab.com?user=baotpt-crypto&theme=radical&hide_border=true" alt="GitHub streak" /></picture>
 </p>
+</details>
+
+### 🏙️ Contributions in 3D
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-rainbow.svg" />
+  <img src="profile-3d-contrib/profile-season-animate.svg" alt="3D contribution graph" />
+</picture>
+
+### 📝 Recent activity
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
 
 ### ♟️ Play chess with me
 
@@ -78,11 +103,40 @@
 
 <!-- CHESS:END -->
 
-### 👾 Pac-Man eats my contributions
+### 🎮 Arcade corner
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/baotpt-crypto/baotpt-crypto/output/pacman-contribution-graph-dark.svg" />
   <img src="https://raw.githubusercontent.com/baotpt-crypto/baotpt-crypto/output/pacman-contribution-graph.svg" alt="Pac-Man contribution graph" />
 </picture>
+
+<details>
+<summary><b>🕹️ More games on my contribution grid</b></summary>
+
+#### 🐍 Snake
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/baotpt-crypto/baotpt-crypto/output/github-snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/baotpt-crypto/baotpt-crypto/output/github-snake.svg" alt="Snake contribution graph" />
+</picture>
+
+#### 🚀 Galaga
+
+<picture><img src="https://raw.githubusercontent.com/baotpt-crypto/baotpt-crypto/output/galaga-contribution-graph.svg" alt="Galaga contribution graph" /></picture>
+
+#### 🧱 Breakout
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/baotpt-crypto/baotpt-crypto/output/breakout-contribution-graph-dark.svg" />
+  <img src="https://raw.githubusercontent.com/baotpt-crypto/baotpt-crypto/output/breakout-contribution-graph.svg" alt="Breakout contribution graph" />
+</picture>
+
+</details>
+
+### 😂 Dev joke of the visit
+
+<p align="center">
+  <picture><img src="https://readme-jokes.vercel.app/api?bgColor=%231a1b27&textColor=%23ff6ea8&aColor=%237ee8fa&borderColor=%231a1b27&hideBorder" alt="Random dev joke" /></picture>
+</p>
 
 <picture><img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=100&section=footer" width="100%" alt="Footer" /></picture>
