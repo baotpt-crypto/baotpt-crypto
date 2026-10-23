@@ -69,8 +69,8 @@ const bao = {
 ### 📝 Recent activity
 
 <!--START_SECTION:activity-->
-1. ❗ Opened issue [#3](https://github.com/baotpt-crypto/baotpt-crypto/issues/3) in [baotpt-crypto/baotpt-crypto](https://github.com/baotpt-crypto/baotpt-crypto)
-2. ❗ Opened issue [#1](https://github.com/baotpt-crypto/baotpt-crypto/issues/1) in [baotpt-crypto/baotpt-crypto](https://github.com/baotpt-crypto/baotpt-crypto)
+1. 🗣 Commented on [#3](https://github.com/baotpt-crypto/baotpt-crypto/issues/3#issuecomment-6358569863) in [baotpt-crypto/baotpt-crypto](https://github.com/baotpt-crypto/baotpt-crypto)
+2. 🎉 Merged PR [#2](https://github.com/baotpt-crypto/baotpt-crypto/pull/2) in [baotpt-crypto/baotpt-crypto](https://github.com/baotpt-crypto/baotpt-crypto)
 <!--END_SECTION:activity-->
 
 ### ♟️ Play chess with me
